@@ -44,6 +44,7 @@ class register:
                     wrfile.write(rname)
                     arfile.write('\n' + rpass)
                     wrfile.close()
+                    arfile.close()
                     time.sleep(3)
             else:
                 print('your username(3-24) or password(1-40) is too long or too short')
